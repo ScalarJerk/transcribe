@@ -1,7 +1,15 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Transcribe Youtube mp4, Local mp3/mp4 
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+If you wish to run the code on GitHub codespaces, make sure to check if you have ``ffmpeg``. 
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+First, try updating your package list:
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+```sh
+sudo apt-get update
+```
+
+Then, try installing `ffmpeg` again:
+
+```sh
+sudo apt-get install ffmpeg
+```
